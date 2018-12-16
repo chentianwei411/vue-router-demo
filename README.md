@@ -1,34 +1,5 @@
-# store
+# 简单的使用vue-store的例子：
+使用vue ui来建立一个store app, 插件使用vuex, vue-router等
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 在router.js中定义了new Router, 导入了views文件夹内的组件。
+2. App.vue使用了<router-link>和<router-view />组件。
