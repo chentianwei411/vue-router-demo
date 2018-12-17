@@ -29,7 +29,7 @@ export default new Router({
     },
     {
       path: '/admin',
-      name: 'Admin',
+      //因为子路径有默认的，所以无需 name: 'Admin',
       component: Index,
       // children
       children: [
