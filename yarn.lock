@@ -1368,6 +1368,14 @@ aws4@^1.8.0:
   resolved "http://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
 
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "http://registry.npm.taobao.org/axios/download/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  integrity sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "http://registry.npm.taobao.org/babel-code-frame/download/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -3648,7 +3656,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.3.0:
   version "1.5.10"
   resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
   integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
@@ -4770,6 +4778,11 @@ joi@^13.0.0:
     isemail "3.x.x"
     topo "3.x.x"
 
+jquery@>=1.12.0, jquery@^3.3.1:
+  version "3.3.1"
+  resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
+
 js-base64@^2.1.8:
   version "2.4.9"
   resolved "http://registry.npm.taobao.org/js-base64/download/js-base64-2.4.9.tgz#748911fb04f48a60c4771b375cac45a80df11c03"
@@ -5576,6 +5589,11 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "http://registry.npm.taobao.org/node-bin-setup/download/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+  integrity sha1-S1ybuTfs5wLXBps2ynivRoRndSg=
+
 node-fetch@1.6.3:
   version "1.6.3"
   resolved "http://registry.npm.taobao.org/node-fetch/download/node-fetch-1.6.3.tgz#dc234edd6489982d58e8f0db4f695029abcd8c04"
@@ -5692,6 +5710,13 @@ node-sass@^4.9.0:
     sass-graph "^2.2.4"
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
+
+node@^11.4.0:
+  version "11.4.0"
+  resolved "http://registry.npm.taobao.org/node/download/node-11.4.0.tgz#1fbe6187e179120025d5438c3f41b84582c7d53b"
+  integrity sha1-H75hh+F5EgAl1UOMP0G4RYLH1Ts=
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 nodent-runtime@^3.0.3:
   version "3.2.1"
@@ -8039,6 +8064,13 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+toastr@^2.1.4:
+  version "2.1.4"
+  resolved "http://registry.npm.taobao.org/toastr/download/toastr-2.1.4.tgz#8b43be64fb9d0c414871446f2db8e8ca4e95f181"
+  integrity sha1-i0O+ZPudDEFIcURvLbjoyk6V8YE=
+  dependencies:
+    jquery ">=1.12.0"
+
 topo@3.x.x:
   version "3.0.3"
   resolved "http://registry.npm.taobao.org/topo/download/topo-3.0.3.tgz#d5a67fb2e69307ebeeb08402ec2a2a6f5f7ad95c"
@@ -8434,6 +8466,11 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
   integrity sha1-3EJpcTMwLOMBdSQ1amxht7abShg=
+
+vue-toastr-2@^0.0.10:
+  version "0.0.10"
+  resolved "http://registry.npm.taobao.org/vue-toastr-2/download/vue-toastr-2-0.0.10.tgz#797435e03461ac3be85da0885377e356745184d3"
+  integrity sha1-eXQ14DRhrDvoXaCIU3fjVnRRhNM=
 
 vue@^2.5.17:
   version "2.5.21"

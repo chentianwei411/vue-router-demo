@@ -8,6 +8,7 @@ import Index from "./views/admin/Index.vue"
 import New from './views/admin/New.vue'
 import Products from './views/admin/Products.vue'
 import Edit from './views/admin/Edit.vue'
+import Details from './views/Details.vue'
 
 
 Vue.use(Router);
@@ -50,6 +51,11 @@ export default new Router({
           component: Edit
         }
       ]
+    },
+    {
+      path: '/details/:id',
+      name: 'Details',
+      component: Details
     },
 
     {
