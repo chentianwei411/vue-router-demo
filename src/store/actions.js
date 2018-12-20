@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-// ？？？不理解：一个奇怪的字符串》？
 const API_BASE = '<API-URL/api/vi>'
 
 import {
