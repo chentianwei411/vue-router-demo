@@ -1,4 +1,4 @@
-# 简单的使用vue-store的例子：
+# a simple store
 使用vue ui来建立一个store app, 插件使用vuex, vue-router等
 
 1. 在router.js中定义了new Router, 导入了views文件夹内的组件。
